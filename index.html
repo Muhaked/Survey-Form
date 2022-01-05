@@ -13,26 +13,40 @@
 
     <h1 id="title">Sample Survey Form</h1>
     <p id="desription">Thank you for taking the time to help us improve the platform </p>
+    <!-- form section starts -->
+    <section class="form-section">
     <form id="survey-form">
         <div class="form-control">
-            <label for="name" id="=name">Name</label>
+            <div class="lable">
+                <label for="name" id="=name">Name</label>
+            </div>
+            
             <input type="text" id="name" placeholder="Enter Your Name">
         </div>
 
         <div class="form-control">
-            <label for="email" id="=email*">Email</label>
+            <div class="label">
+                <label for="email" id="=email*">Email</label>
+            </div>
+            
             <input type="email" id="email" placeholder="Enter Your Email">
         </div>
 
         <div class="form-control">
-            <label for="age" id="=email*">Age</label>
+            <div class="label">
+                <label for="age" id="=email*">Age</label>
+            </div>
+            
             <input type="age" id="email" placeholder="Enter Your Age">
         </div>
 
         <div class="form-control">
-            <label for="role" id="role">Which option bestdecribes you </label>
+            <div class="lable">
+                <label for="role" id="role">Which option bestdecribes you </label>
+            </div>
+            
             <select name="role" id="role">
-    <option value="student">Student</option>
+    <option  value="student">Student</option>
     <option value="doctor">doctor</option>
     <option value="intern">intern</option>
     <option value="other">Other</option>
@@ -40,44 +54,63 @@
         </div>
 
         <div class="form-control">
-            <label> would yoy recommend freeCamp to a Friend?</label>
-            <label for="recommend">
-<input type="radio" id="recommend-1" name="recomende">Definetely</input>
-<label for="recommend">
-    <input type="radio" id="recommend-1" name="recomende">Maybe</input>
+            <div class="label">
+                <label> would yoy recommend freeCamp to a Friend?</label>
+            </div>
+            
+            <!-- <label for="recommend"> -->
+                
+<!-- check boxes here -->
+<div class="chk-container">
+    <div class="chk1">
+        <label for="chk">Frontend Project </label>
+    
+    <input type="checkbox" id="checkbox1">
+    </div>
+        <div class="chk1">
+        <label for="chk">Back-end Projects</label>
+    
+    <input type="checkbox" id="checkbox1">
+    </div>
+        <div class="chk2">
+        <label for="chk">Data Visualization </label>
+    
+    <input type="checkbox" id="checkbox1">
+    </div>
+     <div class="chk3">
+        <label for="chk"> Challenges </label>
+    
+     <div class="chk4">
+        <label for="chk">Open-Source Community </label>
+    
+    <input type="checkbox" id="checkbox1">
+    </div>
+     <div class="chk2">
+        <label for="chk">GitHub Helps </label>
+    
+    <input type="checkbox" id="checkbox1">
+    </div>
 
-    <label for="recommend">
-        <input type="radio" id="recommend-1" name="recomende">Not sure</input>
-        
+</div>
+<!-- check boxes ends here -->
 
-        <div class="form-control">
-            <label for="input-1"> 
-                What is your favorite feature of freeCodeCamp?
-            </label>
-
-            <label for="input-1">
-                <input type="checkbox"> Challenges 
-                <input type="checkbox"> Projects
-                <input type="checkbox"> Community
-                <input type="checkbox"> Opensource
-            </label>
-        </div>
-
-
-
-        </label>
-        </div>
 
 
         <div class="form-contrn1">
-
-            <label for="comment">Any Comments or suggestion </label>
-            <textarea name="comment" id="comment" cols="30" rows="10"> Enter Your Comment Here</textarea>
+<div class="label">
+<label for="comment">Any Comments or suggestion </label>
+</div>
+            
+            <textarea class="text" name="comment" id="comment" cols="30" rows="10"> Enter Your Comment Here</textarea>
 
         </div>
-
+<div class="btn">
+    <button btn-submit>Submit</button>
+</div>
 
     </form>
+    </section>
+    <!-- form section ends -->
 
 </body>
 

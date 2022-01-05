@@ -12,11 +12,59 @@ body {
   text-align: center;
 }
 
-form {
+.form-section {
+  width: 40%;
+  height: 1000px;
+  margin: 0 auto;
+  background: #262645;
+  color: #fff;
+  border-radius: 5px;
+}
+.form-control {
+  margin: 10px;
+  padding: 10px;
+  display: block;
+}
+input {
+  width: 80%;
+  padding: 10px;
+}
+.label {
+  padding: 10px;
+}
+select {
+  width: 87%;
+  padding: 10px;
+}
+.btn-container {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: start;
+}
+.text {
+  width: 100%;
+}
+.btn {
+  width: 100%;
+}
+button {
+  padding: 10px;
+  width: 100%;
+  background: #36b065;
+  color: #fff;
+  border: none;
+  font-size: 600;
+  font-weight: bold;
+}
+.chk1 {
+  position: relative;
+}
+/* form {
   background-color: #a4d9db;
   max-width: 600px;
   margin: 60px auto;
   padding: 40px 40px;
   box-shadow: 3px 5px 10px rgba(1, 10, 0, 0);
-}
-/* kfmk */
+} */
